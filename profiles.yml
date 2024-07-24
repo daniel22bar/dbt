@@ -1,0 +1,14 @@
+my_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: pjofbjc-fo83061
+      user: danielb
+      password: Az14231423@
+      role: ACCOUNTADMIN
+      database: discountpoc
+      warehouse: discount_poc_wh
+      schema: TPCH_SF1
+      threads: 1
+      client_session_keep_alive: False
